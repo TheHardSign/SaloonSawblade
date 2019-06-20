@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 81db7ab2b7a741d468095d3d60a0809a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5384080178404483233
+    second: MadmanAnim_0
+  - first:
+      213: 7728524083166752731
+    second: MadmanAnim_1
+  - first:
+      213: 7346856360787385226
+    second: MadmanAnim_2
+  - first:
+      213: -4089227379970204736
+    second: MadmanAnim_3
+  - first:
+      213: 1200661998221035995
+    second: MadmanAnim_4
+  - first:
+      213: -3560912367235004450
+    second: MadmanAnim_5
+  - first:
+      213: -7584058369955911884
+    second: MadmanAnim_6
+  - first:
+      213: -2498843777833624213
+    second: MadmanAnim_7
+  - first:
+      213: -8202995489239912639
+    second: MadmanAnim_8
+  - first:
+      213: -5650395580924119974
+    second: MadmanAnim_9
+  - first:
+      213: -2791085322621916848
+    second: MadmanAnim_10
+  - first:
+      213: 5636263152817915303
+    second: MadmanAnim_11
+  - first:
+      213: -4702847049597557868
+    second: MadmanAnim_12
+  - first:
+      213: 4379965790456022042
+    second: MadmanAnim_13
+  - first:
+      213: 2974429440684432058
+    second: MadmanAnim_14
+  - first:
+      213: 6061821922483949034
+    second: MadmanAnim_15
+  - first:
+      213: -4684356606807747715
+    second: MadmanAnim_16
+  - first:
+      213: 7403035229093811404
+    second: MadmanAnim_17
+  - first:
+      213: -8003421283173016184
+    second: MadmanAnim_18
+  - first:
+      213: -2281602393659642375
+    second: MadmanAnim_19
+  - first:
+      213: 4148083346213753511
+    second: MadmanAnim_20
+  - first:
+      213: 5461687545085274600
+    second: MadmanAnim_21
+  - first:
+      213: -2863117858927649528
+    second: MadmanAnim_22
+  - first:
+      213: -9093727340768413447
+    second: MadmanAnim_23
+  - first:
+      213: -624159240024243332
+    second: MadmanAnim_24
+  - first:
+      213: 956240860925569707
+    second: MadmanAnim_25
+  - first:
+      213: 3832464237572505979
+    second: MadmanAnim_26
+  - first:
+      213: 2971316552727710183
+    second: MadmanAnim_27
+  - first:
+      213: 7802954250290735409
+    second: MadmanAnim_28
+  - first:
+      213: -4222928250998112075
+    second: MadmanAnim_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MadmanAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 19
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e166c2af4c3fb04ca45273ff38230d5
+      internalID: -5384080178404483233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 113
+        width: 18
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d44a3450f6bf14c9271a6e4ec69acf
+      internalID: 7728524083166752731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 113
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57737c8dbeff6434fb9d99310bbf7461
+      internalID: 7346856360787385226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 113
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e336cc85d3c444bb25cfe3c5b4118d
+      internalID: -4089227379970204736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 113
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4283e3371c03b14db0fb189059ff802
+      internalID: 1200661998221035995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 113
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17226bc1c8adae64ab522bb07fde5e9d
+      internalID: -3560912367235004450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 113
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc607815083315448082a14dbbfe6c9
+      internalID: -7584058369955911884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 113
+        width: 18
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2870c91941e085f43b5a7826e7fa2380
+      internalID: -2498843777833624213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 113
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dc644099124f647a3b11bd4ce7da73
+      internalID: -8202995489239912639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 113
+        width: 18
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4071341c3984c7147bc3dc22eeff3ba1
+      internalID: -5650395580924119974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7353d2e0ea01fe146993a282f708b44b
+      internalID: -2791085322621916848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 76
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b6c48816cba204f8a872ce12a660ce
+      internalID: 5636263152817915303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 76
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0.42105263, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c0e61bda540274f8aa5a3d9bcc1d75
+      internalID: -4702847049597557868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 76
+        width: 20
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621ab182eab46064f85c19fdf092b113
+      internalID: 4379965790456022042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_14
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 76
+        width: 20
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c13f6248c1aeab4f9cb4c7d09eb4835
+      internalID: 2974429440684432058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_15
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 76
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.36363637, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7e7bc802c137849b3e10bdcf064413
+      internalID: 6061821922483949034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 76
+        width: 21
+        height: 36
+      alignment: 9
+      pivot: {x: 0.3809524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c438b7d39a94ae9488b045b4d1529e34
+      internalID: -4684356606807747715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 76
+        width: 21
+        height: 36
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63668d196a459fe43bfd80b81f284a38
+      internalID: 7403035229093811404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 76
+        width: 20
+        height: 36
+      alignment: 9
+      pivot: {x: 0.45000002, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d69f7fe37b7a944863431941cece2f
+      internalID: -8003421283173016184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f87d278bf7aee48a2310215ac2d33f
+      internalID: -2281602393659642375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_20
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 39
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a833051da3124a47bce27b1d1b09a24
+      internalID: 4148083346213753511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 39
+        width: 20
+        height: 36
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb237a715fc9ba4280de77de6180fa0
+      internalID: 5461687545085274600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 39
+        width: 21
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a4a719f0af05b44ab1edb71acf44a6
+      internalID: -2863117858927649528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 39
+        width: 21
+        height: 36
+      alignment: 9
+      pivot: {x: 0.61904764, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ac65e148bcec14685d7b629e72061e
+      internalID: -9093727340768413447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_24
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 39
+        width: 21
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2d802b70d533c458c28b0bffc54250
+      internalID: -624159240024243332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_25
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 39
+        width: 21
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f2634f6d5db8a41ab3132236232301
+      internalID: 956240860925569707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_26
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 39
+        width: 20
+        height: 36
+      alignment: 9
+      pivot: {x: 0.65000004, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e04d2b3f7cdeda488d30626104b6af1
+      internalID: 3832464237572505979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_27
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 39
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6315789, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ec2a1ac0703b54d931505b5105efd8
+      internalID: 2971316552727710183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0.57894737, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f705d124eb442a549b13492e9b871745
+      internalID: 7802954250290735409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadmanAnim_29
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff21178f42ed57b44beed00d3cccbf6b
+      internalID: -4222928250998112075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aaab0750ee2f86d43baff337026e0e87
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
