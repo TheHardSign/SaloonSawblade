@@ -7,7 +7,11 @@ public class SpiralMaster : MonoBehaviour {
 	private Rigidbody2D rb;
 	private Rigidbody2D player;
 
-	public GameObject bullet, bullet2;
+	public GameObject bullet; 
+	private GameObject bullet2;
+
+	public Transform weapon1;
+	public Transform weapon2;
 
 	public Vector3 heading;
 	public float distance;
@@ -28,8 +32,13 @@ public class SpiralMaster : MonoBehaviour {
 	}
 	
 	void LateUpdate () {
+
+		weapon1.localScale = new Vector3(-transform.localScale.x / Mathf.Abs(transform.localScale.x), transform.localScale.x / Mathf.Abs(transform.localScale.x), 0);
+		weapon2.localScale = new Vector3(transform.localScale.x / Mathf.Abs(transform.localScale.x), transform.localScale.x / Mathf.Abs(transform.localScale.x), 0);
+		
 		heading = player.position - rb.position;
 		distance = heading.magnitude;
+
 
 		if(distance <= 10f)
 			rb.velocity = (heading / distance) * -2f;
@@ -44,12 +53,15 @@ public class SpiralMaster : MonoBehaviour {
 		{	
 			shotnum++;
 			cooldown = rate;
-			bullet.transform.position = transform.position;
+			bullet.transform.position = weapon1.position;
 			bullet.GetComponent<Bullet>().dir = RotateVector(Vector3.one * 5f, 35f * (shotnum % 60));
 			Instantiate(bullet);
-			bullet2.transform.position = transform.position;
+			bullet2.transform.position = weapon2.position;
 			bullet2.GetComponent<Bullet>().dir = -RotateVector(Vector3.one * 5f, 35f * (shotnum % 60));
 			Instantiate(bullet2);
+
+			weapon1.rotation = Quaternion.Euler(0, 0, 90 - Vector3.Angle(bullet.GetComponent<Bullet>().dir, Vector3.down) * (transform.localScale.x / Mathf.Abs(transform.localScale.x)));
+			weapon2.rotation = Quaternion.Euler(0, 0, 90 - Vector3.Angle(bullet2.GetComponent<Bullet>().dir, Vector3.down) * (transform.localScale.x / Mathf.Abs(transform.localScale.x)));
 		}
 	}
 

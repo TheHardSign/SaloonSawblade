@@ -9,6 +9,7 @@ public class PrimGuns : MonoBehaviour {
 
 	public GameObject bullet;
 	private GameObject[] bullets = new GameObject[3];
+	public Transform weapon;
 
 	public Vector3 heading;
 	public float distance;
@@ -37,8 +38,13 @@ public class PrimGuns : MonoBehaviour {
 	
 	void LateUpdate () {
 
-		heading = player.position - rb.position;
+		weapon.localScale = new Vector3(-transform.localScale.x / Mathf.Abs(transform.localScale.x), transform.localScale.x / Mathf.Abs(transform.localScale.x), 0);
+
+		Vector2 weppos = new Vector2(weapon.position.x, weapon.position.y);
+		heading = player.position - weppos;
 		distance = heading.magnitude;
+
+		weapon.rotation = Quaternion.Euler(0, 0, 90 - Vector3.Angle(heading / distance, Vector3.down) * (transform.localScale.x / Mathf.Abs(transform.localScale.x)));
 
 		if(distance <= 10f)
 			rb.velocity = (heading / distance) * -2f;

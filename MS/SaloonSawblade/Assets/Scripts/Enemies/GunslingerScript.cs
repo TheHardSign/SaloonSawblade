@@ -34,11 +34,13 @@ public class GunslingerScript : MonoBehaviour {
 	Vector3 oldhead = new Vector3(0, 0, 0);
 
 	void LateUpdate () {
-		heading = player.position - rb.position;
+		weapon.localScale = new Vector3(-transform.localScale.x / Mathf.Abs(transform.localScale.x), transform.localScale.x / Mathf.Abs(transform.localScale.x), 0);
+
+		Vector2 weppos = new Vector2(weapon.position.x, weapon.position.y);
+		heading = player.position - weppos;
 		distance = heading.magnitude;
 
-		if(oldhead != heading)
-			weapon.Rotate(0, 0, Vector3.Angle(heading.normalized, oldhead.normalized), Space.World);
+		weapon.rotation = Quaternion.Euler(0, 0, 90 - Vector3.Angle(heading / distance, Vector3.down) * (transform.localScale.x / Mathf.Abs(transform.localScale.x)));
 
 		if(distance <= 10f)
 			rb.velocity = (heading / distance) * -2f;
@@ -70,12 +72,4 @@ public class GunslingerScript : MonoBehaviour {
 
 		oldhead = heading;
 	}
-
-	public Vector2 RotateVector(Vector2 v, float angle)
-	{
-    	float radian = angle*Mathf.Deg2Rad;
-    	float _x = v.x*Mathf.Cos(radian) - v.y*Mathf.Sin(radian);
-    	float _y = v.x*Mathf.Sin(radian) + v.y*Mathf.Cos(radian);
-    	return new Vector2(_x,_y);
-	} 
 }

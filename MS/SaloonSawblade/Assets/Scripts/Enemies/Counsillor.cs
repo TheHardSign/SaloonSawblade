@@ -21,12 +21,16 @@ public class Counsillor : MonoBehaviour {
 
 	private int shotnum = 0;
 
+	private Animator anim;
+
 	void Start () {
 		player = GameObject.FindWithTag("Sawblade").GetComponent<Rigidbody2D>();
 		rb = GetComponent<Rigidbody2D>();
 		for(int i = 0; i < 12; i++)
 			bullets[i] = bullet;
 		cooldown = 0;
+
+		anim = GetComponent<Animator>();
 	}
 	
 	void LateUpdate () {
@@ -37,6 +41,8 @@ public class Counsillor : MonoBehaviour {
 			rb.velocity = (heading / distance) * -2f;
 		else
 			rb.velocity = new Vector3(0, 0, 0);
+
+		anim.SetFloat("Speed", rb.velocity.magnitude);
 
 		bigcooldown -= Time.deltaTime;
 		if(shotnum == 3)
